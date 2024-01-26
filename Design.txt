@@ -1,0 +1,16 @@
+1) Display the messages "Programming Assignment 0 - Disease Spread Simulation" to the console
+2) Create a new "Scanner" to take input from the user
+3) Set teh variable rNumber to -1
+4) Use a while loop with a condition "rNumber < 0" to repeatedly ask the user to enter the R number until a non-negative value is provided
+    a) Prompt the user with "Enter the R number (non-negative)"
+    b) Read the input and store it in the variable "rNumber"
+    c) Continue looping if the entered value is less than 0
+5) Display the header "Day\tCase(s)" to the console
+6) Set the variables "day" to 0, "cases" to 1.0, and "count" to 0
+7) Use a while loop to simulate the spread for 10 days starting at day 0
+    a) Display the current day and number of cases in the format "day\tcases" to the console
+    b) Update the number of cases based on the current day and the R number
+        i)  if its day 0, keep the cases at 1.0
+        ii) Otherwise, multiply the previous day's cases by the R number
+    c) add to the day counter
+    d) add to the count to control the number of iterations
